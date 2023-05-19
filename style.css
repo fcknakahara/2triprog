@@ -9,3 +9,17 @@ body {
 h1 {
     background-color: rgb(240, 173, 87);
 }
+<header class=”cabecalho”>
+
+<h1 class=”cabecalho-titulo”>
+ 
+.cabecalho {
+    background-color: var (--cr-cabecalho);
+}
+
+.cabecalho-titulo{
+font-size: 36px;
+font-weight: 700;
+padding: 12px;
+text-align: center;
+}
