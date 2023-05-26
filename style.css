@@ -1,25 +1,38 @@
 :root {
 --cor-de-fundo : #4b0953;
+--cor-cabecalho: rgb(240, 173, 87);
+--fundo-menu:rgba(255, 255, 255, 0.842);
 }
 
 body {
     background-color: var(--cor-de-fundo);
 }
-
-h1 {
-    background-color: rgb(240, 173, 87);
-}
-<header class=”cabecalho”>
-
-<h1 class=”cabecalho-titulo”>
  
 .cabecalho {
-    background-color: var (--cr-cabecalho);
+    background-color: var(--cor-cabecalho);
 }
 
-.cabecalho-titulo{
+.cabecalho-titulo {
 font-size: 36px;
 font-weight: 700;
 padding: 12px;
 text-align: center;
+}
+
+.cabecalho-menu {
+    background-color: var(--fundo-menu);
+}
+
+.cabecalho-menu-item {
+display: block;
+padding: 10px;
+font-size: 24px;
+text-decoration: none;
+color: rgb(119, 20, 185);
+text-align: center;
+border-top: 1px solid;
+}
+
+.img-class {
+    width: 500px;
 }
